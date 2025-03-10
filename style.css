@@ -1,8 +1,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 body{
@@ -12,6 +10,28 @@ body{
     flex: 1;
     max-width: 900px;
     margin: auto;
+}
+
+main{
+    flex: 1;
+}
+
+h3{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 2px;
+    font-size: 17px;
+    
+}
+
+p{
+    text-align: justify;
+    padding: 0 15px 0 15px;
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 #fajar {
@@ -29,7 +49,7 @@ body{
     border-top: solid;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
- .email{
+.email {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     text-align: center;
@@ -38,46 +58,23 @@ body{
     margin: 5px;
     background-color: aliceblue;
     border-radius: 10px;
- }
+    align-content: center;
+    display: block; 
+    position: relative;
+}
+
 .info {
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;   
     font-weight: 500;
     text-align: center;
-    border-radius: 0 15px 0 15px;
+    border-radius: 15px 15px 15px 15px;
     background-color: antiquewhite;
     border: solid ;
     padding: 3px;
     position: relative;
     margin: 0px;
-}
-
-h3{
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    padding: 5px;
-    margin: 2px;
-    font-size: 17px;
-    
-}
-
-.istri {
-    border-image-slice: 50%;
-    border-radius: 20px;
-    image-rendering: optimizeQuality;
-    border-image: round;
-    height: 200px;
-    width: 300px;
-}
-
-p{
-    text-align: justify;
-    padding: 0 15px 0 15px;
-    margin: 1px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
 }
 
 .education {
@@ -121,16 +118,6 @@ p{
     padding-top: 0;
 }
 
-footer{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    bottom: 0;
-    padding: 10px;
-    background-color: aliceblue;
-    margin-top: auto;
-    text-decoration: none;
-}
-
 a{
     text-decoration: none;
     border: solid 2px;
@@ -139,8 +126,24 @@ a{
     border-radius: 10px;
 }
 
+a:hover{
+    color: blue;
+}
+
 ul{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 1px;
     margin-top: 2px;
+}
+
+ /*Footer*/
+ footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 0;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-top: auto;
+    text-decoration: none;
+    position: relative;
 }
